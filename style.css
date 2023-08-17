@@ -476,16 +476,45 @@ body {
   color: rgb(255, 151, 16);
   font-weight: 1000;
 }
-#newsletter .form input{
+#newsletter .form{
   height: 50px;
-  padding: 0px 10px;
+  width: 35%;
   font-size: 15px;
-  width: 100%;
+  outline: none;
+  display: flex;
+  align-items: stretch;
+  font-size: 1rem;
+}
+
+#newsletter .form input {
+  flex: 4;
+  padding: 0px 20px;
   outline: none;
   color: gray;
-  background-color: #fff;
-  border: 1px solid rgb(255, 255, 255);
-  
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#newsletter .form button {
+  flex: 1;
+  padding: 0px 10px;
+  outline: none;
+  background-color: #088178;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+#newsletter .form button:hover {
+  scale: 1.04;
+}
+#newsletter .form button:active {
+  scale: 1.02;
 }
 
 
