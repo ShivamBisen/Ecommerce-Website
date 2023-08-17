@@ -540,4 +540,9 @@ footer .install .dow-button {
   display: flex;
 }
 
+footer .icon {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
 
