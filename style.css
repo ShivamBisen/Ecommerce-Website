@@ -536,6 +536,7 @@ footer .about a,footer .my-account a{
   font-weight: 400;
 }
 footer .install .dow-button {
+  
   display: flex;
 }
 
